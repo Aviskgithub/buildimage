@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo "install phase"
+      - docker --version
   pre_build:
     commands:
       - echo "prebuild phase"
