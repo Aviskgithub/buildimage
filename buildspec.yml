@@ -9,6 +9,7 @@ phases:
     commands:
       - echo "prebuild phase"
       - docker images
+      - echo "Hello world "
   build:
     commands:
       - echo "build phase"
