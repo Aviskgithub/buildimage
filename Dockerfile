@@ -1,1 +1,1 @@
-FROM NGINX
+FROM alpine
